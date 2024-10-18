@@ -1,0 +1,63 @@
+.dateContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.card {
+  width: 350px;
+  height: 350px;
+  box-shadow: 1px 2px 5px 0px #00000026;
+  padding: 20px 20px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  position: relative;
+}
+.checkedIcon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 5;
+}
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+}
+.detailsConatiner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  height: 100%;
+  align-items: flex-start;
+}
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+  align-items: flex-start;
+}
+.actionsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.content {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 100px;
+  line-height: 1.2em;
+}
+.date {
+  font-size: 14px;
+  color: #000000;
+  font-weight: 600;
+}
